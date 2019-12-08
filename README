@@ -1,0 +1,21 @@
+Hi I am Danny Thompson. I found the accuweather site very easy to use but incase you are confused I wrote these steps out to help you.
+
+accuweather is what I used to get the weather data. so apikey must be from there.
+Go to developer.accuweather.com
+Sign up for a free account. 
+After creating the account go to My Apps. Create the app. It will then give you your API Key. you will need this to complete this project. It may seem confusing but take your time then follow what i wrote.
+
+Go to API reference after you have your key.
+First go to locations api
+scroll down to postal code search 
+enter your api key in the first field.
+enter your zip code in the second field.
+then press send request.
+find the location code. For Cordova,TN is was 16516_PC copy your code
+
+then go to forecast API.
+I used the 12 hours of hourly forecasts.
+
+In the Resource URL where you see {} place your location code in between the braces.
+Enter your apikey in the provided field then just submit the request. If no errors, you are good to go! follow my code and you will have a nonstyled weather forecast!
+
